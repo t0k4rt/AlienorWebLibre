@@ -1,0 +1,506 @@
+/* CSS Document */
+/* Feuille de style pour Alienor Web Libre */
+
+/* Balise */
+body {
+	scrollbar-3dlight-color: #F6F6F6;
+	scrollbar-darkshadow-color: #666666;
+	scrollbar-face-color: #F6F6F6;
+	scrollbar-track-color: #F6F6F6;
+	scrollbar-highlight-color: #666666;
+	scrollbar-shadow-color: #F6F6F6;
+	scrollbar-arrow-color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-align: left;
+	background-image: url(../images/fond.gif);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	margin: 2px;
+}
+
+h1 {
+	background-image: url(../images/ban-alienor.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #666666;
+	height: 60px;
+	width: 468px;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+}
+
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 2px;
+}
+
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+textarea {
+	margin: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+
+a:link {
+	color: #333333;
+	text-decoration: underline;
+	text-align: left;
+	font-size: 1em;
+}
+
+a:visited {
+	color: #333333;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+
+/* Id conteneur */
+#accueil {
+	text-align: center;
+	position: relative;
+	left: 50%;
+	width: 468px;
+	margin-left: -234px;
+	padding: 3px;
+}
+
+#action {
+	text-align: center;
+	position: relative;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+	padding: 3px;
+}
+
+#bas {
+	text-align: center;
+	vertical-align: bottom;
+	bottom: 10px;
+}
+
+#boite {
+	text-align: left;
+	position: relative;
+	height: 150px;
+	left: 50%;
+	width: 260px;
+	margin-left: -130px;
+	padding: 3px;
+}
+
+#btnvalid {
+	width: auto;
+	height: auto;
+	padding: 5px;
+	text-align: center;
+	float: left;
+}
+
+#haut {
+	text-align: center;
+	margin: 5px 5px;
+	height: auto;
+	width: auto;
+	border: 2px solid #666666;
+	background-color: #EAEAEA;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+#hautDoc {
+
+	text-align: center;
+	margin: 20px 20px;
+	height: auto;
+	width: 62%;
+	border: 2px solid #666666;
+	background-color: #EAEAEA;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+#haut h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 180%;
+	font-weight: bold;
+	color: #666666;
+	margin: 1px;
+	padding: 0px;
+}
+
+#formulaire {
+	border: 1px solid #666666;
+	margin: 5px;
+	padding: 3px;
+	height: 70%;
+	overflow: auto;
+}
+
+#objetGestion {
+	float:left;
+	border: 1px solid #666666;
+	margin: 5px;
+	padding: 3px;
+	height: 20%;
+	width:90%;
+	overflow: auto;
+}
+#syntheseGestion {
+	border: 1px solid #666666;
+	top: 305px;
+	margin: 5px;
+	padding: 3px;
+	width:80%;
+	overflow: visible;
+	position: absolute;
+	left: 70px;
+}
+
+#formulaireIMG {
+	float:left;
+	border: 1px solid #666666;
+	margin: 5px;
+	padding: 3px;
+	height: 70%;
+	width:70%;
+	overflow: auto;
+}
+
+#formulaireDoc {
+	border: 1px solid #666666;
+	top: 305px;
+	margin: 5px;
+	padding: 3px;
+	height: 70%;
+	overflow: auto;
+	position: absolute;
+}
+
+#navigation {
+	text-align: center;
+	position: relative;
+	left: 50%;
+	width: 510px;
+	margin-left: -255px;
+	padding: 3px;
+}
+#navigation form {
+	margin:0px;
+	padding:0px;
+}
+
+#navigationDoc {
+	text-align: center;
+	position: relative;
+	left: 20%;
+	width: 510px;
+	margin-left: -255px;
+	padding: 3px;
+}
+
+#menu {
+	width: 700px;
+	heigth: auto;
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+
+#parametre {
+	text-align: left;
+	position: relative;
+	left: 50%;
+	width: 260px;
+	margin-left: -130px;
+	padding: 3px;
+}
+
+#principale {
+	float: left;
+}
+
+#s-menu {
+	text-align: center;
+	position: relative;
+	left: 50%;
+	width: 760px;
+	margin-left: -380px;
+	padding: 3px;
+}
+
+#menuDoc {
+
+	width: 400px;
+	heigth: auto;
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+
+#s-menuDoc {
+
+	text-align: center;
+	position: relative;
+	left: 45%;
+	width: 760px;
+	margin-left: -380px;
+	padding: 3px;
+}
+
+#images {
+	float:left;
+	overflow: scroll;
+	/*height: 430px;*/
+	height: 70%;
+	width: 27%;
+	border: 1px solid #666666;
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.rangeImg {
+	margin-top:10px;
+	margin-bottom:50px;
+	/*definie dans css print*/
+}
+#imagesDoc {
+	position: absolute;
+	left: 650px;
+	top: 5px;
+	overflow: hidden;
+	height: 300px;
+	width: 300px;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	text-align: center;
+}
+
+ /* class */
+.bdr {
+	border: 1px solid #000000;
+}
+
+.button {
+	cursor: hand;
+}
+
+.centre {
+	text-align: center;
+}
+
+.champlie {
+	background-color: #F3F3F3;
+}
+
+.champobligatoire {
+	background-color: #DDDDDD;
+	color: #333333;
+	font-weight: bold;
+}
+
+.copyright {
+	font-size: 85%;
+	color: #666666;
+}
+
+.invisible {
+	display: none;
+}
+
+.obligatoire {
+	font-weight: bold;
+	color: #333333;
+}
+
+.spacer {
+	clear: both;
+}
+
+.tdtitre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #CC0000;
+	text-align: left;
+	text-decoration: underline;
+	vertical-align: text-top;
+}
+
+.titre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	margin: 10px 5px;
+	height: auto;
+	width: auto;
+	border: 1px solid #333333;
+	background-color: #FFFFFF;
+	float: none;
+	padding: 3px;
+}
+.motcles {
+	width:220px;
+}
+.inputtextelibre{
+	width:320px;
+}
+.inputnumerique{
+	width:85px;
+}
+.textarealong20{
+	width:160px;
+}
+.textarealong40, .inputlong40{
+	width:300px;
+}
+.textarealong60{
+	width:440px;
+}
+.textarealong90{
+	width:600px;
+}
+.textarealong100{
+	width:700px;
+}
+/* formulaire de consultation */
+.tddesignation {
+	color: #800000;
+	vertical-align: text-top;
+	text-align: left;
+	width: 210px;
+}
+
+.tddonnees 	{
+	color: #000000;
+	text-align: left;
+	vertical-align: text-top;
+}
+
+/* Masque de saisie */
+.saisie {
+	background-image: url(../images/saisie.gif);
+	background-repeat: repeat;
+}
+
+.titre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	margin: 10px 5px;
+	height: auto;
+	width: auto;
+	border: 1px solid #333333;
+	background-color: #FFFFFF;
+	float: none;
+	padding: 3px;
+}
+
+/* Masque de recherche */
+.bd-tbl-mr {
+	border: 1px solid #666666;
+}
+
+.titre-tbl {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	background: #EAEAEA;
+}
+/* Dimensions de tableau/colonne/ligne etc */
+
+.centpcent {
+	width:100%;
+
+}
+ 
+/* Etats */
+.enteteTableau {
+	width:100%;
+}
+.tableauConteneurGlob {
+	width:100%;
+}
+.pleineLargueur {
+	width:100%;
+}
+.enteteCol_1{
+	width:80%;
+	vertical-align:bottom;
+}
+.enteteCol_2{
+	width:20%;
+	text-align:right;
+	vertical-align:bottom;
+}
+.texteImportant {
+	font-size: 1.3em;
+}
+
+.pageEnd {
+	page-break-after: always;
+}
+.souligne {
+	text-decoration: underline;
+}
+.titrepage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 2em;
+}
+.dateInventaire {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+}
+.bdrEtat {
+	width:100%;
+	border: 1px solid #000000;
+}
+.contenuTexte {
+	width:80%;
+	vertical-align:top;
+}
+.pourVignPhoto {
+	width:20%;
+	text-align:center;
+	vertical-align:top;
+}
+.col_unQuart {
+ width:25%;
+ text-align:right;
+ vertical-align:top;
+}
+.col_troisQuart {
+ width:75%;
+ text-align:justify;
+ vertical-align:top;
+}
+.centrer {
+	text-align : center;
+}

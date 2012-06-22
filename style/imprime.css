@@ -1,0 +1,11 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-size: 0.55em!important;
+}
+hr {
+	display: none;
+}
+.pageEnd {
+	page-break-after:always;
+}

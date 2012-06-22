@@ -1,0 +1,126 @@
+/* CSS Document */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#logo {
+	float: left;
+	margin-right: 10px;
+}
+#visuelFiche {
+	float: right;
+	margin-left: 10px;
+}
+table{
+	width: 100%;
+}
+table, tr, td , table p{
+	padding: 0px;
+	margin: 0px;
+}
+tr{
+	border: 1px solid #999999;
+}
+td{
+	vertical-align: baseline;
+	font-weight: normal;
+}
+#identification {
+	width: 100%;
+	margin-top: 0px;
+}
+.unDemi {
+	width:50%;
+}
+.quarant {
+	width:45%;
+}
+.soixant {
+	width:65%;	
+}
+h1 {
+	font-size: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #000000;
+}
+h2 {
+	font-size: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #999999;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	text-align: center;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	border: 1px solid #999999;
+}
+p {
+	font-size: 1em;
+}
+div.caseAcocher {
+	padding-left: 2px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	margin: 2px;
+	float: left;
+	font-weight: 100!important;
+	display: inline;
+}
+#etat .caseAcocher {
+	width: 9.3em;
+}
+#contenant .caseAcocher {
+	width: 6.5em;
+}
+#identification .caseAcocher, #action .caseAcocher {
+	width: auto;
+}
+.floatLeft {
+	float: left;
+}
+.caseAcocher img {
+	padding-right: 3px;
+}
+
+.emphase {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.lighter {
+	font-weight: 100;
+}
+.lignes {
+	background-image: url(../recolement/Fondligne.gif);
+}
+li {
+	font-size: 0.8em;
+}
+hr {
+	height: 2px;
+	line-height: 2px;
+	visibility: hidden;
+	clear: both;
+}
+.pageEnd {
+	page-break-after: always;
+}
+.centre {
+	text-align: center;
+}
+.justifie {
+	text-align: justify;
+}
+.centrage {
+	text-align:center;
+	vertical-align: middle;
+}

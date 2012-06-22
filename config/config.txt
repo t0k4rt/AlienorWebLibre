@@ -1,0 +1,24 @@
+;**************************************** 
+
+							; fichier de configuration d'AWL 
+
+							;**************************************** 
+
+
+							; Lieu de stockage des images 
+
+							; Attention ce r�pertoire doit �tre accessible par le serveur web 
+
+							images = "/home/alexandre/dev/php/alienorweblibre/imagesDoc" 
+
+
+							;Acc�s � internet 
+
+							; mettre la valeur � true si le poste acc�de � internet, false sinon 
+
+							internet = "true" 
+
+
+							; Taille maximum du transfert accepter par le serveur en upload 
+
+							max_transfert = "5000"
