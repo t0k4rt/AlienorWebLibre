@@ -1,5 +1,5 @@
 <?php
-	session_start();
+
 require_once('../config/config.php');
 	$niveau_visa = $ms;
 	$page = "archeo";
@@ -50,7 +50,7 @@ function champDat(champ) {
 }
 -->
 </script>
-<script language="JavaScript1.2" type="text/javascript" src="http://localhost/alienorweblibre/include/RoboHelp_CSH.js"></script>
+<script language="JavaScript1.2" type="text/javascript" src="../include/RoboHelp_CSH.js"></script>
 <script type="text/javascript">
 <!--
 function FenetreTheso(URL) {

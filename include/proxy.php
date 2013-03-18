@@ -118,12 +118,13 @@ Class Proxy
 		}
 
 		//If a proxified media file isn't requested (a web page is)...
-		else {    
+		else {  
 			//Check the URL for protocol, etc....
 			if(substr($this->url, 0, 7) != "http://") //didn't start with 'http://'...we have a problem.
 			{
 				$this->url = "http://".$this->url;
 			}
+
 			
 			//Checks if there was a form redirected to this proxy.
 			

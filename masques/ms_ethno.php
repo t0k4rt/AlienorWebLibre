@@ -1,5 +1,5 @@
 <?php
-	session_start();
+
 	require_once('../config/config.php');
 	$niveau_visa = $ms;
 	$page = "ethno";

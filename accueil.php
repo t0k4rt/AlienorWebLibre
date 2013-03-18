@@ -1,8 +1,8 @@
 <?php
-	require_once('config/config.php');
+	require_once('./config/config.php');
 	$niveau_visa = $mcr;
-	include('include/version.php');
-	include('include/securite.php');
+	include('./include/version.php');
+	include('./include/securite.php');
 	isset($_GET['formu']) ? $lstformu = $_GET['formu'] : $lstformu = '' ;
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -113,13 +113,6 @@ print_r(parse_ini_file("/home/alexandre/dev/php/alienorweblibre/include/../confi
 
 print_r($_SESSION);
 */
-$filename = "./.htaccess";
-$handle = fopen($filename, "a+");
-
-echo fread($handle, filesize($filename));
-
-
-
 
 ?>
 <div id="boite">

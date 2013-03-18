@@ -340,7 +340,8 @@ function utilisateur_existe($identifiant,$mot_de_passe,$code_musee="")
 			$_SESSION["thesaurus"] = "http://www.alienor.org/Alienorweb/Public/";
 		} else {
 			$_SESSION["aide"] = "../leconseillerAWL/index.htm";
-			$_SESSION["thesaurus"] = "../alienorweblibreTest/theso_local.php";
+			$_SESSION["thesaurus"] = "./theso_local.php";
+			//todo arranger le thesaurus local
 		}
 	}
 	}

@@ -8,7 +8,9 @@
 	$name = strToLower($name);
 	$type_image =substr($name,-3);
 	$chemin = $_SESSION['images']."/".$name;
+
 	//echo "<br>chemin :".$chemin;exit;
+	
 	// taille par d�faut vignette
 	if (!isset($largeur)) $largeur = 80;
 	if (!isset($hauteur)) $hauteur = 80;
@@ -66,7 +68,7 @@
 	case 'gif':
 		Header('Content-type: image/gif');
 		ImageGIF($image_final);
-				break;
+		break;
  }
  ImageDestroy($image_final);
  ImageDestroy($image_origine);

@@ -1,5 +1,5 @@
 <?php
-	session_start();
+
 require_once('../config/config.php');
 	$niveau_visa = $ms;
 	$page = "edition";
@@ -18,7 +18,7 @@ require_once('../config/config.php');
 <meta http-equiv="pragma" content="no-cache">
 <link href="../style/style_awl.css" rel="stylesheet" type="text/css" media="screen">
 <link href="../style/style_awl_print.css" rel="stylesheet" type="text/css" media="print">
-<script language="JavaScript1.2" type="text/javascript" src="http://localhost/alienorweblibre/include/RoboHelp_CSH.js"></script>
+<script language="JavaScript1.2" type="text/javascript" src="../include/RoboHelp_CSH.js"></script>
 <script type="text/javascript">
 <!--
 function FenetreTheso(URL) {
